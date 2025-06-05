@@ -1,9 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Bridgerton in DBpedia</title>
-  </head>
-  <body>
-    <h1>project curated by Alessia Gavelli, Elisa Mainardi and Gaia Pestelli </h1>
-  </body>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BRIDGERTON IN DBpedia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    nav {
+      background: #007bff;
+      padding: 10px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Progetto LLM: Studio e Analisi</h1>
+</header>
+
+<nav>
+  <a href="#selected-topic">Selected Topic Description</a>
+  <a href="#gap-methodology">Gap, General Methodology and Tools</a>
+  <a href="#methodological-steps">Methodological Steps</a>
+  <a href="#challenges-llms">Challenges and LLMs Differences</a>
+</nav>
+
+<section id="abstract">
+  <h2>Abstract</h2>
+  <p>
+    Questo progetto si propone di analizzare le differenze tra modelli di linguaggio di grandi dimensioni (LLMs) attraverso un approccio metodologico dettagliato e basato su dati empirici.
+  </p>
+</section>
+
+<section id="participants">
+  <h2>Partecipanti</h2>
+  <ul>
+    <li>Alessia Gavelli</li>
+    <li>Elisa Mainardi</li>
+    <li>Gaia Pestelli</li>
+  </ul>
+</section>
+
+<section id="selected-topic">
+  <h2>Selected Topic Description</h2>
+  <p>Descrizione dettagliata del tema selezionato per il progetto.</p>
+</section>
+
+<section id="gap-methodology">
+  <h2>Gap, General Methodology and Tools</h2>
+  <p>Descrizione delle lacune individuate, metodologia generale adottata e strumenti utilizzati.</p>
+</section>
+
+<section id="methodological-steps">
+  <h2>Methodological Steps</h2>
+  <p>Passaggi metodologici seguiti nel corso del progetto.</p>
+</section>
+
+<section id="challenges-llms">
+  <h2>Challenges and LLMs Differences</h2>
+  <p>Discussione sulle sfide incontrate e differenze tra i modelli di linguaggio.</p>
+</section>
+
+</body>
 </html>
